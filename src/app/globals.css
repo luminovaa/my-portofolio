@@ -17,6 +17,7 @@
 }
 
 body {
+  cursor: url(/public/cursor.png);
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
