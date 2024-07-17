@@ -8,7 +8,7 @@ export default function Home() {
         alt="Background"
       />
       <div className="relative z-10">
-        <h1 className="font-extrabold font-baloo text-3xl">Hello, Everyone</h1>
+        <h1 className="text-kedua font-extrabold font-baloo text-3xl">Hello, Everyone</h1>
       </div>
     </div>
   );

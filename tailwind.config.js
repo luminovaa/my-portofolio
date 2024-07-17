@@ -14,7 +14,7 @@ export default {
       },
       colors: {
         'utama': '#198695',
-        'kedua': '#D52B1E',
+        'kedua': '#F36337',
       },
     },
   },
