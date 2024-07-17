@@ -3,8 +3,15 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Manga Temple';
-  src: url('./assets/mangat.ttf') format('truetype');
+  font-family: "Manga Temple";
+  src: url("./assets/mangat.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Baloo";
+  src: url("./assets/Baloo-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

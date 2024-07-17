@@ -13,23 +13,23 @@ export default function Navbar() {
   
   return (
     <nav className="fixed right-4 max-sm:right-0 w-full max-w-lg max-sm:max-w-32 m-4">
-      <div className="border-4 bg-sea-blue rounded-3xl p-2 flex flex-col items-center">
+      <div className="border-4 bg-utama rounded-3xl p-2 flex flex-col items-center">
          <button
           onClick={() => setIsOpen(!isOpen)}
-          className="sm:hidden text-white font-bold"
+          className="sm:hidden text-white font-bold font-manga-temple"
         >
-          {isOpen ? "Menu" : "Close"}
+          {isOpen ? "Close" : "Menu"}
         </button>
         <div
           className={`flex flex-row justify-center items-center w-full text-white ${
-            isOpen ? "hidden" : "flex max-sm:flex-col"
+            isOpen ? "flex max-sm:flex-col" : "max-sm:hidden "
           }`}
         >
           {navItems.map((item) => (
            <a 
             key={item.label}
             href={item.href}
-            className="px-2 max-sm:pt-2 max-sm:pb-2 transition-transform duration-300 hover:-translate-y-1 hover:underline hover:underline-offset-4 text-center"
+            className="px-2 font-manga-temple max-sm:pt-2 max-sm:pb-2 transition-transform duration-300 hover:-translate-y-1 hover:underline hover:underline-offset-4 text-center"
           >
             {item.label}
           </a>

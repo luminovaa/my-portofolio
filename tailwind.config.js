@@ -8,13 +8,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Manga Temple", "sans-serif"],
+        // sans: ["Manga Temple", "sans-serif"],
         "manga-temple": ["Manga Temple", "sans-serif"],
+        "baloo" : ["Baloo", "sans-serif"]
       },
       colors: {
-        'straw-hat': '#D52B1E',
-        'sea-blue': '#0077BE',
-        'gold-roger': '#FFD700',
+        'utama': '#198695',
+        'kedua': '#D52B1E',
       },
     },
   },
