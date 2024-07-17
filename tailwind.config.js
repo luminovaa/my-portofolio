@@ -8,11 +8,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        sans: ["Manga Temple", "sans-serif"],
         "manga-temple": ["Manga Temple", "sans-serif"],
       },
       colors: {
-        "utama": "#49a9fc"
-      }
+        'straw-hat': '#D52B1E',
+        'sea-blue': '#0077BE',
+        'gold-roger': '#FFD700',
+      },
     },
   },
   plugins: [],
