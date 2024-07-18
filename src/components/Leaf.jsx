@@ -3,11 +3,16 @@ import LeafTree from '../assets/tree.svg';
 
 const Leaf = () => {
   return (
-    <div className="absolute top-[-5%] right-[-22%] flex items-center justify-center"> {/* Pastikan z-50 tetap ada di sini */}
+    <motion.div
+    initial={{ opacity: 0, x: 200 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 2 }}
+     className="absolute xl:top-[-5%] xl:right-[-22%] xl:flex xl:items-center xl:justify-center 
+     max-sm:-bottom-36 max-sm:-right-44">
       <motion.img
         src={LeafTree}
         alt="Swaying Tree"
-        className="w-[50rem] h-[50rem]"
+        className="w-[50rem] h-[50rem] max-sm:w-[30rem] max-sm:h-[40rem]"
         animate={{
           rotate: [0, 5, 0, -5, 0],
         }}
@@ -17,7 +22,7 @@ const Leaf = () => {
           ease: 'easeInOut',
         }}
       />
-    </div>
+    </motion.div>
   );
 };
 

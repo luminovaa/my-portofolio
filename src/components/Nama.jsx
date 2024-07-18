@@ -25,8 +25,13 @@ export default function Nama() {
       <motion.h3
         initial={{ opacity: 0, y: -100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.9, type:'spring' }}
-        className="text-black font-bold font-baloo pt-5 text-7xl max-sm:text-4xl "
+        transition={{
+          duration: 0.9,
+          type: "spring",
+          stiffness: 300, // Menentukan kekakuan dari pegas
+          damping: 5, // Mengatur redaman untuk mengurangi bouncing
+        }}
+        className="text-black font-bold font-baloo pt-5 text-7xl max-sm:text-4xl"
       >
         {"I'm "}
         <AnimatePresence mode="wait">

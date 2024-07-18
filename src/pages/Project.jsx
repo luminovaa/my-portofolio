@@ -1,5 +1,9 @@
 export default function Project() {
   return (
-    <div>Project</div>
+    <section id="project" className="h-screen">
+      <div>
+        Project
+      </div>
+    </section>
   )
 }

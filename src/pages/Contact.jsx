@@ -1,5 +1,9 @@
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <section id="contact" className="h-screen">
+      <div>
+        Contact
+      </div>
+    </section>
   )
 }
