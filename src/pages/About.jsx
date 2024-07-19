@@ -5,7 +5,7 @@ import rumah from "../assets/summer.png";
 
 export default function About() {
   return (
-    <section id="about" className="min-h-screen max-sm:h-[140vh] relative overflow-hidden bg-sky-200">
+    <section id="about" className="min-h-screen max-sm:h-[140vh] relative overflow-hidden bg-keempat">
       <motion.img
         src={rumah}
         alt="Rumah"
